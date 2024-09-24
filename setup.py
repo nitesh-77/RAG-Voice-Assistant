@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='jarvis-voice-assistant',
+    name='RAG-Voice-Assistance',
     version='0.1',
     packages=find_packages(),
     install_requires=[
@@ -21,12 +21,12 @@ setup(
             'jarvis=run_voice_assistant:main'
         ]
     },
-    author='Prompt',
-    author_email='engineerprompt@gmail.com',
+    author='nitesh-77',
+    author_email='nitesh33lol@gmail.com',
     description='A modular voice assistant application with support for multiple state-of-the-art models.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/PromtEngineer/JARVIS-VoiceAssistant',
+    url='https://github.com/nitesh-77',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
