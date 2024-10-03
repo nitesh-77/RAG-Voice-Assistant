@@ -3,7 +3,7 @@ from groq import Groq
 import ollama
 import logging
 from voice_assistant.config import Config
-from voice_assistant.agent_actions import *
+from voice_assistant.agent_action import *
 
 
 def generate_response(model, api_key, chat_history, local_model_path=None):
